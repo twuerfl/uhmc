@@ -37,11 +37,11 @@
 ---
 
 ## System Architecture
-ESP32 ──> SN74HC595 ──> TPL7407LAPW ──> Heating Circuits 1-12
-└─> TCA9548AM ──> I²C Sensors
-LAN8720A ──> Ethernet
-CP2102N ──> Optional USB
-
+ESP32 
+  ->  SN74HC595  ->   TPL7407LAPW  ->  Heating Circuits 1-12
+  ->  TCA9548AM  ->   I²C Sensors
+  ->  LAN8720A   ->   Ethernet
+  ->  CP2102N    ->   Optional USB
 
 - Heating circuits 11 and 12 are paralleled for higher current capacity.
 - ESPHome handles PID control, sensor input, and automation integration.
