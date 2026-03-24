@@ -1,0 +1,392 @@
+(footprint "BarrelJack_CUI_PJ-036AH-SMT_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Surface-mount DC Barrel Jack, http://www.cui.com/product/resource/pj-036ah-smt.pdf")
+	(tags "Power Jack SMT")
+	(property "Reference" "J22"
+		(at -6.2 8.975 180)
+		(layer "F.SilkS")
+		(uuid "11572b4d-aa29-4dc6-9d96-81a013c52da1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack-DC"
+		(at 0 11.25 180)
+		(layer "F.Fab")
+		(uuid "27e21d60-f8b9-4b0b-8ec1-9c8a20a2a042")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d60f3e1d-5cb1-42ca-b3e7-4bbad6b4812c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Barrel Jack"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5474de31-5f6e-4901-a580-f4e123e439db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "PJ-036AH-SMT-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "738761e2-51c1-45fb-8d6a-90b7edbdfbac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "facfd4b6-5997-4cf1-ad91-131336d88c63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.6 -2.6)
+		(end -4.2 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5f7e21e-5e89-41b0-8a52-646b3e27166e")
+	)
+	(fp_line
+		(start -4.6 -0.15)
+		(end -4.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8eeaaa2-65a0-4f2c-957c-142a8f391c43")
+	)
+	(fp_line
+		(start -4.6 10.1)
+		(end -4.6 6.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6a8b0b6-ee65-427a-941d-698a81ccaf4d")
+	)
+	(fp_line
+		(start -4.2 -4.6)
+		(end -1.2 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "577decee-8a14-4b23-87e7-f17858359a8f")
+	)
+	(fp_line
+		(start -4.2 -2.6)
+		(end -4.2 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dae7874-6f0f-4ef3-9af7-0063ca802e3e")
+	)
+	(fp_line
+		(start -1.19 -8.24)
+		(end 0.55 -8.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d513a62-6f64-4aec-a07f-bbdc8eb551eb")
+	)
+	(fp_line
+		(start -1.19 -6.5)
+		(end -1.19 -8.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cb57cd6-3201-4d29-82e2-7cf9570274c1")
+	)
+	(fp_line
+		(start 2.6 -4.6)
+		(end 4.2 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c087d46-39e4-4523-906c-a0ba3907806a")
+	)
+	(fp_line
+		(start 4.2 -4.6)
+		(end 4.2 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56da337c-09c5-4d04-81c5-d628d260d37f")
+	)
+	(fp_line
+		(start 4.2 -2.6)
+		(end 4.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c27d5d9-2805-4f8b-8418-aa3a3f900f0c")
+	)
+	(fp_line
+		(start 4.6 -2.6)
+		(end 4.6 -0.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15548032-04f7-4c05-b4c2-9254dc1f5e00")
+	)
+	(fp_line
+		(start 4.6 6.55)
+		(end 4.6 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "377be561-0b50-4cbf-a299-924c35e59a33")
+	)
+	(fp_line
+		(start 4.6 10.1)
+		(end -4.6 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9a83e88-054c-44aa-88b5-0a301e994fd6")
+	)
+	(fp_line
+		(start -8.9 -8.5)
+		(end -8.9 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b82f961c-231f-48af-8681-dcba0a1c26f0")
+	)
+	(fp_line
+		(start -8.9 10.5)
+		(end 8.9 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c0e69a2-d563-4d61-b5d7-d52e2fd09ba5")
+	)
+	(fp_line
+		(start 8.9 -8.5)
+		(end -8.9 -8.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ba7a51d-b6a7-4c08-b9ea-4222e5b7acb9")
+	)
+	(fp_line
+		(start 8.9 10.5)
+		(end 8.9 -8.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "128ced52-511c-4dd8-9d68-6c33d0d4bb5c")
+	)
+	(fp_line
+		(start -4.5 -2.5)
+		(end -4.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03c3a172-a1fc-4d06-9099-3a1de68c87a1")
+	)
+	(fp_line
+		(start -4.5 10)
+		(end 4.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cfd65a7-6069-44fb-bc0f-34b9676b9bce")
+	)
+	(fp_line
+		(start -4.1 -4.5)
+		(end -4.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82250797-4639-4502-9287-d54170c77c7a")
+	)
+	(fp_line
+		(start -4.1 -2.5)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbc26ca4-0ba5-4365-8f85-7caa184eb519")
+	)
+	(fp_line
+		(start 4.1 -4.5)
+		(end -4.1 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c469264-ffe1-4982-a026-87262c0ff5a3")
+	)
+	(fp_line
+		(start 4.1 -2.5)
+		(end 4.1 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5a4a2af-a03d-4042-a4f2-6dcc3397d802")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end 4.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8913596-a421-46c2-9adc-33dbcde32ca4")
+	)
+	(fp_line
+		(start 4.5 10)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50e99488-7f91-427d-8e3f-9fcf3cb0a60a")
+	)
+	(fp_circle
+		(center 0.7 -3.4)
+		(end 0.75 -2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f3963de-022d-437b-80a9-d19beaf97abd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "633a8926-846c-41a2-b62d-5108c7f08da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 7)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d52ea37e-d7b0-4753-90a7-cc7de1db9b40")
+	)
+	(pad "1" smd rect
+		(at 0.7 -5.8)
+		(size 3.3 4.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff8a59ee-f57a-484d-b65f-23afd51d94cf")
+	)
+	(pad "2" smd rect
+		(at -6.45 3.2)
+		(size 3.9 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0d029c9-c83e-4ea1-b458-802ddfb22c1b")
+	)
+	(pad "3" smd rect
+		(at 6.45 3.2)
+		(size 3.9 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "840be2e0-3c5b-455e-9916-766a0f973799")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step/BarrelJack_CUI_PJ-036AH-SMT_Horizontal.step"
+		(offset
+			(xyz 0 -10 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

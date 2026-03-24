@@ -1,0 +1,260 @@
+(footprint "Fuseholder_Cylinder-5x20mm_Schurter_OGN-SMD_Horizontal_Open"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fuseholder horizontal open, 5x20mm, 500V, 16A (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN-SMD.pdf)")
+	(tags "Fuseholder horizontal open 5x20 Schurter 0031.8221")
+	(property "Reference" "F1"
+		(at 12.6 -4.9 90)
+		(layer "F.SilkS")
+		(uuid "e16318fd-0b81-45a9-8cbc-686c9d127aa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1A"
+		(at -1.5 -0.25 180)
+		(layer "F.Fab")
+		(uuid "057d0478-07ce-4536-af1a-8593ea75ddd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6cb84e7-079e-4005-8e65-a670ec2ada38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d664e554-07d6-412f-b0af-caf4a64c64c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "0031.8221"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9608afc3-b79f-43ee-ac39-64d4cb1b2080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "010fdd72-b4c6-404b-ab1a-3c393977d544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.45 -5.5)
+		(end -11.45 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f980d3a9-dd70-40e0-985b-50db32f26733")
+	)
+	(fp_line
+		(start -11.45 -5.5)
+		(end 11.45 -5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7995e78e-a865-4763-8ffd-e0f3cb842fb2")
+	)
+	(fp_line
+		(start -11.45 5.5)
+		(end -11.45 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e166163-a5d7-4df8-b0f4-c9d0bd119802")
+	)
+	(fp_line
+		(start -11.45 5.5)
+		(end 11.45 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7573b4b-0a3b-4d62-ba09-96751997964e")
+	)
+	(fp_line
+		(start 11.45 -5.5)
+		(end 11.45 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59d05159-1067-4934-b476-20586c64c7a0")
+	)
+	(fp_line
+		(start 11.45 5.5)
+		(end 11.45 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa58c59-73fb-470f-92bc-5d2ba809ba96")
+	)
+	(fp_line
+		(start -11.75 -5.65)
+		(end 11.75 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a91c8468-4705-41e6-910b-ca63ed0e7ae5")
+	)
+	(fp_line
+		(start -11.75 5.65)
+		(end -11.75 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa71c449-8a39-4e4c-a5dd-9ea9c414f726")
+	)
+	(fp_line
+		(start 11.75 5.65)
+		(end -11.75 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74c78c1d-0c17-40a9-a13d-8b7605a7f9c3")
+	)
+	(fp_line
+		(start 11.75 5.65)
+		(end 11.75 -5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "024d9556-15f2-47cc-b61a-0ddd707b682b")
+	)
+	(fp_line
+		(start -11.35 -5.4)
+		(end -11.35 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b0d12ab-7c07-4f5f-98b5-cd15536151e1")
+	)
+	(fp_line
+		(start -11.35 -5.4)
+		(end 11.35 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4c58fec-4bb6-4cb0-a51c-7bf89b98c34b")
+	)
+	(fp_line
+		(start 11.35 -5.4)
+		(end 11.35 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4f785bd-7b5f-4db7-87b6-f6c42491acfe")
+	)
+	(fp_line
+		(start 11.35 5.4)
+		(end -11.35 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62617dd8-2cb6-4efc-8942-1d23373e42c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "8030462c-e121-4c21-ab57-96d5c7ca8b58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -8.5 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "071e2167-164e-435a-812f-b134cefc5c56")
+	)
+	(pad "2" smd roundrect
+		(at 8.5 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "967d9e14-2aa7-474e-8870-6a56cc7d73af")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step/Fuseholder_Cylinder-5x20mm_Schurter_OGN-SMD_Horizontal_Open.step"
+		(offset
+			(xyz -4 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
